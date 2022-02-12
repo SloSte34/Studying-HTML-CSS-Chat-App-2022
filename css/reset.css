@@ -132,6 +132,7 @@ input:focus {
   outline: none;
 }
 
+/*change color of all links into inherit and no decoration.*/
 a {
   color: inherit;
   text-decoration: none;
