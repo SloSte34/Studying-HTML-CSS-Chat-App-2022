@@ -13,6 +13,11 @@
   margin-right: 20px;
 }
 
+.user-component__picture-xl {
+  width: 80px;
+  height: 80px;
+}
+
 .user-component__name {
   font-weight: 600;
   font-size: 22px;
