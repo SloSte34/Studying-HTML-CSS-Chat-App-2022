@@ -3,9 +3,10 @@
   display: block;
   background-color: #fafafa;
   padding: 10px 0px;
-  margin-bottom: 10px;
   color: #2e363e;
   font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: -15px;
 }
 
 #friends-display-link i {
@@ -17,7 +18,7 @@
 }
 .friends-screen__channel {
   margin-top: 25px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--compoment-sepate-border);
   padding-top: 15px;
 }
 
