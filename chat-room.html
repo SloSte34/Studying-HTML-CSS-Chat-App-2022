@@ -8,8 +8,8 @@
     <title>Chat Room - Shiba Inu Talk</title>
   </head>
 
-  <body>
-    <div class="status-bar">
+  <body id="chat-screen" class="chat-room-color">
+    <div class="status-bar chat-room-color">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
@@ -24,44 +24,40 @@
       </div>
     </div>
 
-    <header class="alt-header">
+    <header class="alt-header chat-room-color">
       <div class="alt-header__column">
-        <a href="more.html">
+        <a href="chat.html">
           <i class="fa-solid fa-angle-left fa-2x"></i>
         </a>
       </div>
       <div class="alt-header__column">
-        <h1 class="alt-header__title">Settings</h1>
+        <h1 class="alt-header__title">MAMEJO</h1>
       </div>
       <div class="alt-header__column">
-        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+        <span>
+          <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+        </span>
+        <span>
+          <i class="fa-solid fa-bars fa-2x"></i>
+        </span>
       </div>
     </header>
 
-    <main class="main-screen">
-      <ul class="settings-list">
-        <li class="settings__components">
-          <div class="settings__components-column">
-            <i class="fa-solid fa-bullhorn"></i>
-            <span>Notices</span>
+    <main class="main-screen chat-room">
+      <div class="chat__timestamp">Monday, February 28, 2022</div>
+
+      <div class="message-row">
+        <img src="images/mamejo-profile-image.png" />
+        <div class="message-row__content">
+          <div class="message__author">MAMEJO</div>
+          <div class="message__contents">
+            <span class="message__bubble"
+              >나는 이전의 지랄견 마메조가 아니야. 개과천선했어.</span
+            >
+            <span class="message__time">21:39</span>
           </div>
-          <div class="settings__components-column"></div>
-        </li>
-        <li class="settings__components">
-          <div class="settings__components-column">
-            <i class="fa-solid fa-flask"></i>
-            <span>Shiba Inu Talk Lab</span>
-          </div>
-          <div class="settings__components-column"></div>
-        </li>
-        <li class="settings__components">
-          <div class="settings__components-column">
-            <i class="fa-solid fa-circle-info"></i>
-            <span>Version</span>
-          </div>
-          <div class="settings__components-column">You Are Up To Date!</div>
-        </li>
-      </ul>
+        </div>
+      </div>
     </main>
 
     <!--below is Kit from font awesome-->
