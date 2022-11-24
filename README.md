@@ -1,6 +1,3 @@
-# kokoa clone 2022 nomadcoders
+# Chat App Clone 2022 Nomadcoders
 
-Do This For Learning Programming
-MINSU KIM
-I want to be a Front-end developer.
-# chat-app-clone-2022-nomadcoders
+Studying HTML, CSS
